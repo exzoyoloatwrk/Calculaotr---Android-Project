@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="152dp"
+        android:layout_height="178dp"
+        android:paddingBottom="30px"
+        app:srcCompat="@drawable/calc" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35px"
+        android:background="#66434343"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="Number1"
+        android:textColorHint="#F4F2F2"
+        android:textColor="#F4F2F2" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:background="#66434343"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:hint="Number2"
+        android:textColorHint="#F4F2F2"
+        android:textColor="#F4F2F2" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#66434343"
+        android:text="Addition"
+        android:textSize="19sp"/>
+    <!--    android:background="@android:color/transparent"-->
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#66434343"
+        android:text="Subtraction"
+        android:textSize="19sp"/>
+    <!--    android:background="@android:color/transparent"-->
+
+    <Button
+        android:id="@+id/mul"
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#66434343"
+        android:text="Multiplication"
+        android:textSize="19sp"/>
+    <!--    android:background="@android:color/transparent"-->
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#66434343"
+        android:text="Division"
+        android:textSize="19sp"/>
+    <!--    android:background="@android:color/transparent"-->
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="321dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="35px"
+        android:background="#66434343"
+        android:text="Result"
+        android:textColor="#F4F2F2"
+        android:textSize="25sp" />
+</LinearLayout>
